@@ -23,7 +23,7 @@ echo "SLURM_JOB_ID: $SLURM_JOB_ID"
 ref=/home/qiuyb/resource/swim/Sus_scrofa.Sscrofa11.1.dna.toplevel.fa
 region=/home/qiuyb/China_pigs/manta_sv/0.data/call_region.txt.gz
 
-for bamsample in `echo NCWB_SRS465716`
+for bamsample in `${sample[*]}`
 do
     input=/home/qiuyb/China_pigs/pigWGS/${bamsample}
     mkdir -p /home/qiuyb/China_pigs/manta_sv/1.configuration/${bamsample}
