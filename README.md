@@ -8,4 +8,4 @@ svimmer is used to merge SVs. More details can be obtained in https://github.com
 
 GraphTyper2 is used to genotyping SVs. More details can be obtained in https://github.com/DecodeGenetics/graphtyper.
 
-code including configuration (sbatch/configuration.sbatch), workflow execution (runWorkflow.sbatch), filter (), convert, merge, genotyping (genotyping_SV.sbatch)
+code including configuration (sbatch/configuration.sbatch), workflow execution (runWorkflow.sbatch), filter (), convert, merge (mergediploidSV.sbatch), genotyping (genotyping_SV.sbatch)
